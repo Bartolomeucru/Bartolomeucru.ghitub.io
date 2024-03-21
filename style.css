@@ -1,0 +1,81 @@
+body{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-image: url(img/fundo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabecalho{
+  font-size: 2rem;
+  color: white;
+  padding: 12px;
+  display: flex;
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: space-between;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: linear-gradient(rgb(80,80,90),rgb(12,22,22));
+}
+.cabecalho span{
+margin-left: 1rem;
+font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+img{
+  width: 6rem;
+  height: 6rem;
+}
+button{
+width: 40%;
+overflow: none;
+outline: none;
+border: none;
+font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  background-image: linear-gradient(rgb(80,80,90),rgb(12,22,22));
+
+padding: 16px;
+color: white;
+border-radius: 20px;
+}
+nav a{
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  
+}
+p{
+  color: white;
+  font-size: 2rem;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.32rem;
+  justify-content: space-between;
+}
+footer{
+  margin-bottom: 3rem;
+    background-image: linear-gradient(rgb(80,80,90),rgb(12,22,22));
+    height: 10vh;
+    color: white;
+    top: 90vh;
+    position: absolute;
+    width: 100%;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>chow</title>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Italianno&family=Lemon&display=swap" rel="stylesheet">
+  <style>
+    /* Estilos adicionais aqui */
+  </style>
+</head>
+
+<body onload="caregar()">
+  <header class="cabeca">
+    <span>chow</span>
+    <nav>
+   <a href="home.html">
+     <img src="img/silhueta-de-icone-de-casa.png" alt="" id="logo">
+   </a>
+   <a href="/livros.html">
+              <img src="img/livro-de-receitas.png" alt="receitas" id="logo">
+            </a>
+         <a href="chefes.html">
+         <img src="img/chefe-de-cozinha.png" alt="" id="logo">
+         </a>
+         
+      <img src="img/cafeteria.png" alt="" id="logo" onclick="desativado()">
+
+    </nav>
+  </header>
+  <div class="container">
+    <div id="menu">
+      <details>
+<summary>Cardápio</summary>
+  <p onclick="mostrarSection(this)">Pizza</p>
+ <p onclick="mostrarSection(this)">Sushi</p>
+<p onclick="mostrarSection(this)">Hambúrguer</p>
+<p onclick="mostrarSection(this)">Massas</p>
+
+</details>
+
+      <!-- Outros detalhes aqui -->
+    </div>
+    <div id="containe">
+      <!-- Sections serão adicionadas aqui -->
+      <section id="Pizza" style="display:none;"> 
+      <h5>Pizza</h5>
+ <div class="video-container">
+   <iframe src="https://www.youtube.com/embed/vmnADSGHml0?si=fp1cbBbP68gDnlcf" frameborder="0" allowfullscreen></iframe>
+ </div>
+ <ul>
+   <li>
+     <p><strong>Receita de Pizza:</strong></p>
+     <ul>
+       <li>Ingredientes:</li>
+       <li>- 1 massa de pizza pré-cozida</li>
+       <li>- 1 xícara de molho de tomate</li>
+       <li>- 2 xícaras de queijo mussarela ralado</li>
+       <li>- Toppings a gosto (pepperoni, cogumelos, pimentão, cebola, etc.)</li>
+       <li>- Azeite de oliva</li>
+       <li>- Orégano e manjericão fresco (opcional)</li>
+     </ul>
+     <p>Instruções:</p>
+     <ol>
+       <li>Pré-aqueça o forno conforme as instruções da massa de pizza.</li>
+       <li>Coloque a massa de pizza em uma assadeira ou pedra de pizza.</li>
+       <li>Espalhe o molho de tomate uniformemente sobre a massa.</li>
+       <li>Cubra com queijo mussarela ralado.</li>
+       <li>Adicione os toppings desejados, distribuindo-os de maneira uniforme sobre a pizza.</li>
+       <li>Regue com um fio de azeite de oliva.</li>
+       <li>Asse no forno pré-aquecido de acordo com as instruções da massa de pizza, geralmente por 10-15 minutos ou até que a massa esteja dourada e o queijo derretido e borbulhante.</li>
+       <li>Retire do forno e deixe esfriar por alguns minutos antes de cortar.</li>
+       <li>Se desejar, polvilhe com orégano e decore com folhas de manjericão fresco antes de servir.</li>
+     </ol>
+   </li>
+   <li>
+     <p><strong>História da Pizza:</strong></p>
+     <p>A pizza tem suas origens na cidade de Nápoles, na Itália, onde foi criada no século XVII. Inicialmente, era um prato de comida simples consumido pela classe trabalhadora, consistindo em uma massa de pão coberta com ingredientes básicos como tomate, queijo e ervas.</p>
+     <p>No entanto, a pizza ganhou popularidade rapidamente e se espalhou por toda a Itália e, posteriormente, pelo mundo. Durante o século XIX, imigrantes italianos levaram a receita da pizza para os Estados Unidos, onde ela foi adaptada e se tornou um ícone da culinária americana.</p>
+     <p>Hoje em dia, a pizza é um dos alimentos mais populares e amplamente consumidos em todo o mundo, com uma variedade infinita de coberturas e estilos, desde a tradicional pizza margherita até combinações mais extravagantes e criativas.</p>
+   </li>
+ </ul>
+</section>
+
+
+<section id="Sushi" style="display:none;">
+  <h5>sushi</h5>
+ <div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_GV3ZMDZVGU" frameborder="0" allowfullscreen></iframe>
+</div>
+<ul>
+  <li>
+    <p><strong>Receita de Sushi:</strong></p>
+    <ul>
+      <li>Ingredientes:</li>
+      <li>- 2 xícaras de arroz de sushi (arroz japonês)</li>
+      <li>- 2 1/2 xícaras de água</li>
+      <li>- 1/2 xícara de vinagre de arroz</li>
+      <li>- 2 colheres de sopa de açúcar</li>
+      <li>- 1 colher de chá de sal</li>
+      <li>- Nori (folhas de algas marinhas)</li>
+      <li>- Peixe fresco (salmão, atum, peixe branco, etc.)</li>
+      <li>- Vegetais (pepino, abacate, cenoura, etc.)</li>
+    </ul>
+    <p>Instruções:</p>
+    <ol>
+      <li>Lave o arroz de sushi em água fria até que a água saia clara. Escorra bem.</li>
+      <li>Em uma panela, combine o arroz com água e leve para ferver em fogo médio-alto. Reduza o fogo, tampe e cozinhe por 18-20 minutos, ou até que o arroz esteja macio e a água tenha sido absorvida.</li>
+      <li>Enquanto o arroz cozinha, misture o vinagre de arroz, açúcar e sal em uma tigela pequena até que o açúcar e o sal estejam dissolvidos.</li>
+      <li>Quando o arroz estiver pronto, transfira-o para uma tigela grande e regue com a mistura de vinagre enquanto mexe delicadamente para incorporar.</li>
+      <li>Deixe o arroz esfriar um pouco antes de usá-lo.</li>
+      <li>Para montar o sushi, coloque uma folha de nori em uma esteira de bambu, espalhe uma camada fina de arroz sobre ela, adicione fatias de peixe e vegetais no centro, e enrole firmemente com a ajuda da esteira.</li>
+      <li>Use uma faca afiada para cortar o rolo em pedaços e sirva com molho de soja, gengibre em conserva e wasabi.</li>
+    </ol>
+  </li>
+  <li>
+    <p><strong>História do Sushi:</strong></p>
+    <p>O sushi tem suas origens no sudeste asiático, onde o arroz era usado para conservar o peixe com sal. O método de fermentação gradualmente evoluiu para o que conhecemos hoje como sushi. No Japão, o sushi tornou-se popular durante o período Edo (1603-1868), quando os japoneses começaram a adicionar vinagre de arroz ao arroz cozido para melhorar o sabor e a conservação. O sushi inicialmente era vendido em barracas de rua e se tornou um alimento rápido e prático para os trabalhadores urbanos.</p>
+    <p>Com o tempo, o sushi evoluiu em diferentes estilos, como o nigiri sushi (bolinho de arroz com fatia de peixe por cima) e o maki sushi (rolo de sushi com arroz e ingredientes enrolados em nori). Hoje em dia, o sushi é apreciado em todo o mundo e se tornou uma das comidas japonesas mais reconhecidas internacionalmente.</p>
+  </li>
+</ul>
+</section>
+
+
+  
+</section>
+
+
+<section id="Hambúrguer" style="display:none;">
+        <h5>Hambúrguer</h5>
+        <div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BmE7_gEBHz8" frameborder="0" allowfullscreen></iframe>
+</div>
+<ul>
+  <li>
+    <p><strong>Receita de Hambúrguer:</strong></p>
+    <ul>
+      <li>Ingredientes:</li>
+      <li>- 500g de carne moída (preferencialmente carne com um teor de gordura moderado)</li>
+      <li>- Sal e pimenta a gosto</li>
+      <li>- 4 pães de hambúrguer</li>
+      <li>- Folhas de alface</li>
+      <li>- Fatias de tomate</li>
+      <li>- Fatias de queijo cheddar (opcional)</li>
+      <li>- Cebola roxa em rodelas (opcional)</li>
+      <li>- Molhos a gosto (ketchup, mostarda, maionese, etc.)</li>
+    </ul>
+    <p>Instruções:</p>
+    <ol>
+      <li>Divida a carne moída em porções iguais e forme hambúrgueres com cerca de 1,5 cm de espessura. Tempere com sal e pimenta a gosto em ambos os lados.</li>
+      <li>Aqueça uma grelha ou frigideira em fogo médio-alto.</li>
+      <li>Grelhe os hambúrgueres por aproximadamente 4-5 minutos de cada lado, ou até que estejam cozidos ao seu gosto.</li>
+      <li>Enquanto os hambúrgueres estiverem cozinhando, toste levemente os pães de hambúrguer na grelha ou em uma frigideira.</li>
+      <li>Monte os hambúrgueres colocando as folhas de alface, fatias de tomate, queijo (se estiver usando) e cebola (se estiver usando) sobre os pães tostados.</li>
+      <li>Coloque os hambúrgueres grelhados sobre os vegetais e adicione molhos a gosto.</li>
+      <li>Sirva imediatamente.</li>
+    </ol>
+  </li>
+  <li>
+    <p><strong>História do Hambúrguer:</strong></p>
+    <p>O hambúrguer tem suas origens incertas, mas é amplamente associado aos Estados Unidos, onde se tornou um símbolo da cultura americana. Uma das teorias mais populares sugere que o hambúrguer foi criado no final do século XIX por imigrantes alemães que trouxeram consigo a tradição de carne moída e a adaptaram com pão para criar o que conhecemos hoje como hambúrguer.</p>
+    <p>No entanto, foi somente no século XX, com a popularização dos fast-foods e das cadeias de restaurantes de hambúrguer, como o McDonald's e o Burger King, que o hambúrguer se tornou uma parte fundamental da dieta americana e, posteriormente, mundial.</p>
+    <p>Atualmente, o hambúrguer é um dos alimentos mais consumidos e reconhecidos globalmente, com uma variedade infinita de variações e combinações de ingredientes, desde os clássicos cheeseburgers até opções vegetarianas e gourmet.</p>
+  </li>
+</ul>
+</section>
+
+
+
+<section id="Massas" style="display:none;">
+          <h5>Massas</h5>
+        <div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KtXcCHw7bj4" frameborder="0" allowfullscreen></iframe>
+</div>
+<ul>
+  <li>
+    <p><strong>Receita de Massa Alimentar:</strong></p>
+    <ul>
+      <li>Ingredientes:</li>
+      <li>- 300g de farinha de trigo</li>
+      <li>- 3 ovos grandes</li>
+      <li>- Uma pitada de sal</li>
+      <li>- Água (se necessário)</li>
+    </ul>
+    <p>Instruções:</p>
+    <ol>
+      <li>Em uma superfície limpa, faça um monte com a farinha de trigo e faça um buraco no centro.</li>
+      <li>Quebre os ovos dentro do buraco e adicione uma pitada de sal.</li>
+      <li>Com um garfo, comece a misturar os ovos enquanto incorpora gradualmente a farinha até formar uma massa.</li>
+      <li>Se a massa estiver muito seca, adicione um pouco de água aos poucos até obter uma consistência elástica e maleável.</li>
+      <li>Sove a massa por cerca de 5-10 minutos até que fique lisa e homogênea.</li>
+      <li>Enrole a massa em plástico filme e deixe descansar na geladeira por pelo menos 30 minutos.</li>
+      <li>Após o tempo de descanso, divida a massa em porções menores e abra com um rolo até obter a espessura desejada.</li>
+      <li>Corte a massa em formatos de sua escolha (espaguete, tagliatelle, ravióli, etc.) e cozinhe em água fervente com sal até que estejam al dente.</li>
+      <li>Escorra a massa e sirva com o molho de sua preferência.</li>
+    </ol>
+  </li>
+  <li>
+    <p><strong>História da Massa Alimentar:</strong></p>
+    <p>A massa alimentar tem uma história antiga e diversificada, com origens que remontam a civilizações antigas como os egípcios, gregos e romanos. No entanto, foi na Itália que a massa alimentar ganhou destaque e se tornou um elemento fundamental da culinária italiana.</p>
+    <p>Os romanos já consumiam uma espécie de massa cozida, mas foi na Idade Média, com a chegada do trigo da Ásia, que a massa se popularizou na Itália. Inicialmente, a massa era feita à mão e estendida com um rolo, mas com o tempo foram desenvolvidas técnicas de produção que permitiram a fabricação em larga escala.</p>
+    <p>Hoje em dia, a massa alimentar é um alimento básico em muitas culturas ao redor do mundo e é apreciada em uma variedade de formas, desde os simples espaguetes até as elaboradas lasanhas e raviólis.</p>
+  </li>
+</ul>
+</section>
+
+
+</section>
+<section id="bar" style="display:none;">
+  <h5>bar</h5>
+ <div class="video-container">
+<iframe src="video/background-video.mp4" frameborder="0" allowfullscreen></iframe>
+</section>
+
+
+<section id="Frango" style="display:none;">
+          <h5>358262</h5>
+        <div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-hoh1rixg90" frameborder="0" allowfullscreen></iframe>
+</section>
+
+
+</section>
+
+    </div>
+  </div>
+
+  <footer id="rodape">
+ <center>
+ <span>@bartolomeucruz265@gmail.com</span>
+ <br>
+ <br>
+<div class="separador">
+  <span>+244:935612515</span>
+  <span></span>
+</div>
+ </center>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
