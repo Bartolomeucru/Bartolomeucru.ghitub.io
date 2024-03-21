@@ -1,0 +1,93 @@
+body{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+      background-image: linear-gradient(rgb(80,80,90),rgb(1,2,2));
+        background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  color: whitesmoke;
+}
+.cabeca{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+
+  color: white;
+
+  background-image: linear-gradient(rgb(80, 80, 80), rgb(20, 2, 22));
+}
+a {
+  text-decoration: none;
+}
+#logo {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-left: 1rem;
+  border: 1px solid white;
+  color: white;
+}
+.cabeca span {
+  font-size: 3rem;
+}
+.Bottura{
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Bottura img{
+ margin-left: 2.5rem;
+ width: 80%;
+ height: 20rem;
+}
+.chefes {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Bottura img{
+  width: 50%;
+  height: 70vh;
+
+
+}
+@media(max-width: 60px){
+.chefes {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+}
+p{
+  color: white;
+
+}
+.chefes{
+ 
+ 
+}
+#iniciar{
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid white;
+  background: linear-gradient(whitesmoke, white,floralwhite);
+  border-radius: 20px;
+  color: floralwhite;
+  padding: 16px;
+}
+#parar{
+width: 2rem;
+height: 2rem;
+border: 1px solid black;
+background: linear-gradient(#42445A,black);
+border-radius: 20px;
+padding: 16px;
+}

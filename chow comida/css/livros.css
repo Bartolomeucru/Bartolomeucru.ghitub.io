@@ -1,0 +1,44 @@
+body{
+    margin: 0 0 0 0;
+  padding: 0 0 0 0;
+      background-image: linear-gradient(rgb(80,80,90),rgb(1,2,2));
+        background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+embed{
+  background: black;
+  border: 3px solid #42445A;
+  color: #42445A;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.cabeca{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+
+  color: white;
+
+  background-image: linear-gradient(rgb(80, 80, 80), rgb(20, 2, 22));
+}
+a {
+  text-decoration: none;
+}
+#logo {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-left: 1rem;
+  border: 1px solid white;
+  color: white;
+}
+.cabeca span {
+  font-size: 3rem;
+}
